@@ -42,6 +42,9 @@ you since it will contain secrets).
 
 ```
 export TF_VAR_acme_email=someemail@somedomain.com
+# The AWS credentials will need to be associated with an account
+# that has access to request TLS certificates via Route53 for the
+# domain specified as 'external_hostname' on the acme charm.
 export TF_VAR_aws_access_key_id=blah
 export TF_VAR_aws_secret_access_key=blah
 export TF_VAR_kratos_microsoft_tenant_id=blah

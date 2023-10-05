@@ -1,7 +1,7 @@
 locals {
   external_hostname    = "staging.operatorinc.org"
-  sso_juju_model_name  = "stg-zinc-deploy"
-  zinc_juju_model_name = "stg-zinc-deploy"
+  sso_juju_model_name  = "stg-zinc"
+  zinc_juju_model_name = "stg-zinc"
   zinc_units           = 2
 }
 

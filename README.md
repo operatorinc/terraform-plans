@@ -25,7 +25,7 @@ terraform apply
 
 Then to test the service, run:
 ```
-curl -v http://dev.operatorinc.org/dev-zinc-deploy-zinc/ui/ --resolve dev.operatorinc.org:80:${IPADDR}
+curl -v http://dev.operatorinc.org/dev-zinc-zinc/ui/ --resolve dev.operatorinc.org:80:${IPADDR}
 ```
 
 If you want to visit the service in a browser, add the value of `$IPADDR` from

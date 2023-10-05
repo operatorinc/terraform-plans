@@ -1,7 +1,7 @@
 locals {
   external_hostname    = "production.operatorinc.org"
-  sso_juju_model_name  = "prod-zinc-deploy"
-  zinc_juju_model_name = "prod-zinc-deploy"
+  sso_juju_model_name  = "prod-zinc"
+  zinc_juju_model_name = "prod-zinc"
   zinc_units           = 3
 }
 

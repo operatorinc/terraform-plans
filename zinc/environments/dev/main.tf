@@ -1,6 +1,6 @@
 locals {
   external_hostname    = "dev.operatorinc.org"
-  zinc_juju_model_name = "dev-zinc-deploy"
+  zinc_juju_model_name = "dev-zinc"
   zinc_units           = 1
 }
 

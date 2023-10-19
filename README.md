@@ -23,6 +23,12 @@ terraform plan
 terraform apply
 ```
 
+To inspect the environment with Juju, run:
+```
+juju switch dev-zinc
+juju status
+```
+
 Then to test the service, run:
 ```
 curl -v http://dev.operatorinc.org/dev-zinc-zinc/ui/ --resolve dev.operatorinc.org:80:${IPADDR}
